@@ -46,9 +46,9 @@
 #include "reference_global.h"
 
 #include <scShared/Interfaces/IAlgorithm.h>
-#include <generics/circularmatrixbuffer.h>
+#include <utils/generics/circularmatrixbuffer.h>
 #include <scMeas/newrealtimemultisamplearray.h>
-#include <utils/eegref.h>
+#include <eegref.h>
 
 #include "FormFiles/referencesetupwidget.h"
 #include "FormFiles/referencetoolbarwidget.h"
@@ -66,11 +66,12 @@
 
 //*************************************************************************************************************
 //=============================================================================================================
-// DEFINE NAMESPACE ReferencePlugin
+// DEFINE NAMESPACE REFERENCEPLUGIN
 //=============================================================================================================
 
 namespace REFERENCEPLUGIN
 {
+
 
 //*************************************************************************************************************
 //=============================================================================================================
